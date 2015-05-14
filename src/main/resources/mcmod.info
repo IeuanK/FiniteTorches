@@ -1,0 +1,16 @@
+[
+{
+  "modid": "finitetorches",
+  "name": "Finite Torches",
+  "description": "Makes torches burn out.",
+  "version": "0.1",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Ieuan"],
+  "credits": "Unlit Torches for inspiration",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
