@@ -1,29 +1,5 @@
 Finite Torches
 ===================
-[TOC]
-
----
-##Doc help
-```flow
-st=>start: Using this mod
-e1=>end: Grab the universal download
-e2=>end: Grab the universal download and read the wiki
-e3=>end: Checkout the repository
-e4=>end: I can't really help you
-
-dev=>condition: Are you a developer?
-admin=>condition: Are you a server admin?
-player=>condition: Are you a player?
-
-
-st->dev
-dev(yes)->e3
-dev(no)->admin
-admin(yes)->e2
-admin(no)->player
-player(yes)->e1
-player(no)->e4
-```
 ---
 ##Developer help
 
