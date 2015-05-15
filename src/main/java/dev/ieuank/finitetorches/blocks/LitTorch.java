@@ -1,17 +1,16 @@
 package dev.ieuank.finitetorches.blocks;
 
-import net.minecraft.block.Block;
 import net.minecraft.block.BlockTorch;
-import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.init.Blocks;
+import dev.ieuank.finitetorches.FiniteTorches;
 
 public class LitTorch extends BlockTorch
 {
-	public static final Block litTorch = new LitTorch()
-	.setHardness(0.5F).setBlockName("litTorch").setCreativeTab(CreativeTabs.tabTools).setBlockName("Lit Torch");
 
 	public LitTorch() 
     {
-		
+		setBlockName(FiniteTorches.MODID + ":torch");
+		setCreativeTab(FiniteTorches.creativeTab);
+		setHardness(0F);
+		setBlockTextureName("torch_on");
     }
 }
