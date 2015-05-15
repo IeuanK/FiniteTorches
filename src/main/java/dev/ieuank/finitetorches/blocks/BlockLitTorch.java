@@ -3,10 +3,10 @@ package dev.ieuank.finitetorches.blocks;
 import net.minecraft.block.BlockTorch;
 import dev.ieuank.finitetorches.FiniteTorches;
 
-public class LitTorch extends BlockTorch
+public class BlockLitTorch extends BlockTorch
 {
 
-	public LitTorch() 
+	public BlockLitTorch() 
     {
 		setBlockName(FiniteTorches.MODID + ":torch");
 		setCreativeTab(FiniteTorches.creativeTab);

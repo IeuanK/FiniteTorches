@@ -8,7 +8,7 @@ import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
-import dev.ieuank.finitetorches.blocks.LitTorch;
+import dev.ieuank.finitetorches.blocks.BlockLitTorch;
 import dev.ieuank.handles.FiniteCreativeTab;
 
 @Mod(modid = FiniteTorches.MODID, version = FiniteTorches.VERSION)
@@ -28,7 +28,7 @@ public class FiniteTorches
     }
     
     public void registerBlocks() {
-    	GameRegistry.registerBlock(new LitTorch(), "litTorch");
+    	GameRegistry.registerBlock(new BlockLitTorch(), "litTorch");
         FiniteTorches.logger.log(Level.INFO, MODID + " blocks registered");
     }
 }
